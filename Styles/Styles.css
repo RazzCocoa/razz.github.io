@@ -1,0 +1,185 @@
+.boutonMenu {
+    border: 1px black solid; 
+    border-radius: 5px; 
+    background-color: rgba(56,57,59);
+    color: black;
+    padding: 1.5em;
+}
+a {
+    color: white;
+}
+.bandeau {
+    background-color: rgba(0, 0, 0, 0.6);
+    color:white;
+}
+body {
+    text-align: center;
+    background-image: url('https://i.redd.it/ed03ar6xdi471.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat; /*empêcher que l'arrière plan se répète*/
+    background-attachment: fixed;
+}
+.text {
+    color: grey;
+    text-transform: uppercase;
+    font-family: serif;
+    width: 200px;
+}
+li {
+    margin: 5px; padding: 5px;
+    display: list-item;
+}
+ul {
+    list-style: circle; /*change le style de la liste pour des cercles*/
+}
+.navMenu {
+    color: grey;
+}
+html {
+    position: static;
+}
+.bandeauMain {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.col {
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+}
+h1 {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    margin-block-start: 1.5em;
+}
+h2 {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    margin-block-start: 1.5em;
+}
+p {
+    display: block;
+    margin-block-start: 1.5em;
+    margin-block-end: 0.3em;
+}
+.video {
+    width: 30%;
+}
+div, main {
+    color:white;
+}
+td, th {
+    border: 2px solid #AB966F;
+    text-align: left;
+    padding: 8px;
+  }
+  th {
+    background-color: rgb(85, 72, 65);
+  }
+  tr:nth-child(even) {
+    background-color: #413e3c;
+  }
+  td:nth-child(odd) {
+    color: #8a8548;
+  }
+  .favNom
+  {
+    color: #8a8548;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  table {
+    width: 80%;
+  }
+  .widthNav {
+    width: 200%;
+  }
+  .navImage {
+    width: 18em;
+  }
+  .ImgEnfant {
+    width: 300px;
+  }
+  .secImg {
+    width: 5em;
+  }
+  .flask {
+    width: 40px;
+  }
+  .controls {
+    border-radius: 10%;
+    width: 1000px;
+  }
+  .ImgPad {
+    padding: 10px;
+  }
+  .txtOverlay {
+    position: relative;
+  }
+  .txtOverlay > img, .txtOv {
+    position: absolute;
+  }
+  .txtOv {
+    padding: 40px 40px;
+  }
+.checkbox {
+  background-color: #413e3c;
+  width: fit-content;
+  padding: 5px;
+}
+.form {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: fit-content;
+  padding: 5px;
+}
+.detailImg {
+  width: 400px;
+}
+.favImg {
+  width: 200px;
+}
+.accordion-body {
+  background-color: rgba(56,57,59)
+}
+.txtWhite {
+  color: white;
+}
+.logo {
+  width: 100px;
+}
+.bandeauPad {
+  padding: 1em;
+}
+.span {
+  color: gold;
+}
+#recherche {
+  justify-content: center;
+}
+p.up {
+  text-transform: uppercase;
+  position: fixed;
+}
+.trans:hover {
+  transition: linear 2s;
+}
+div img {
+  opacity: q;
+  transition-delay: 10ms;
+  transition-duration: 0.5s;
+}
+div img:hover {
+  opacity: 0.5;
+}
+.navStyle {
+  text-decoration: none;
+}
+.overflow {
+  overflow:scroll
+}
+.txtVertical {
+  writing-mode: vertical-rl; /*du texte à la verticale*/
+}
